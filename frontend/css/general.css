@@ -1,0 +1,20 @@
+.titre
+{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    padding: 5%;
+    border: solid;
+    border-radius: 40px;
+    border-color: black;
+    box-shadow:
+        3px 3px rgb(212, 31, 103),
+        -1em 0 0.4em rgb(199, 213, 67)
+
+}

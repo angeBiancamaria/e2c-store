@@ -1,0 +1,15 @@
+#logoE2CStore{
+        right: 25%;
+        left: 25%;
+        height: 400px;
+        width: 400px;
+}
+
+@media (max-width: 510px) {
+#logoE2CStore {
+                right: 25%;
+                left: 25%;
+                height: 200px;
+                width: 200px;
+        }
+}

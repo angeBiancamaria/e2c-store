@@ -3,20 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/boutique.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <script src="../js/navbar.js"></script>
     <title>boutique</title>
   </head>
   <body>
-    <div>
-      <div></div>
+    <header class="info">
+      <ul class="infologo">
+        <li>
+          <a href="tel:+33495327301" class="lienInfo">tel 04 95 32 73 01</a>
+        </li>
+        <li>
+          <a href="https://e2c.corsica/contact" class="lienInfo">contact</a>
+        </li>
+        <li>
+          <a
+            href="https://e2c.corsica/foire-aux-questions-faq-sur-le2c"
+            class="lienInfo"
+          >
+            FAQ sur l'E2C</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/e2c_bastia"
+            ><img
+              class="imageresseaux"
+              src="../image/instagram.png"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/ecoledeuxieme.chancebastia"
+            ><img
+              class="imageresseaux"
+              src="../image/facebook.png"
+              alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://x.com/E2CBastia"
+            ><img
+              class="imageresseaux"
+              src="../image/twitter.png"
+              alt="twitter"
+          /></a>
+        </li>
+      </ul>
+    </header>
+    <nav class="navbar">
       <div>
-        <img src="../image/Logo-E2C-Bastia.jpg" />
+        <img class="logo" src="../image/Logo-E2C-Bastia.jpg" alt="logo e2c" />
       </div>
-      <div>E2C store</div>
+      <ul class="nav-links">
+        <li><a href="presentation.html">presentation</a></li>
+        <li><a href="accueil.html">accueil</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="titre">liste des articles</h1>
+      <img id="listearticle" src="../image/etagere.jpg" alt="marchandise" />
     </div>
-    <div>
-      <a href="presentation.html"><button>presentation</button></button></a>
-         <a href="accueil.html"><button>accueil</button></button></a>
-    </div>
-    BOUTIQUE
   </body>
 </html>

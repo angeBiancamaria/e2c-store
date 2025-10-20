@@ -1,0 +1,69 @@
+
+#porteE2c {
+        height: 300px;
+        width: 300px;
+        right: 25%;
+        left: 25%;
+        margin-top: 10%;
+}
+#textIntro {
+ margin-bottom: 10%;
+}
+.imageexempleleft {
+        margin: 2%;
+        height: 400px;
+        width:  400px;
+        left: 0;
+        border: solid;
+                border-radius: 40px;
+                border-color: black;
+                box-shadow:
+                        3px 3px rgb(212, 31, 103),
+                        -1em 0 0.4em rgb(199, 213, 67)
+}
+.imageexempleright {
+        margin: 2%;
+        height: 400px;
+        width: 400px;
+        right: 0;
+        border: solid;
+                border-radius: 40px;
+                border-color: black;
+                box-shadow:
+                        3px 3px rgb(212, 31, 103),
+                        -1em 0 0.4em rgb(199, 213, 67)
+}
+
+
+#interview {
+        margin: 5%;
+        padding: 5% ;
+        border: solid;
+        border-radius: 40px;
+        border-color: black;
+        box-shadow:
+                3px 3px rgb(212, 31, 103),
+                -1em 0 0.4em rgb(199, 213, 67)
+}
+
+.img1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+}
+
+@media (max-width: 815px) {
+
+        .imageexempleleft {
+                height: 200px;
+                width: 200px;
+                left: 0;
+        }
+
+        .imageexempleright {
+                height: 200px;
+                width: 200px;
+                right: 0;
+        }
+}
