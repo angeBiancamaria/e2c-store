@@ -18,3 +18,18 @@
         -1em 0 0.4em rgb(199, 213, 67)
 
 }
+.image {
+    right: 25%;
+    left: 25%;
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width: 510px) {
+    .image {
+        right: 25%;
+        left: 25%;
+        height: 200px;
+        width: 200px;
+    }
+}
