@@ -13,3 +13,16 @@
                 width: 200px;
         }
 }
+#ChoixaAccueil {
+display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 0.5em 1em;
+        color: white;
+}
+.choix {
+        text-decoration: none;
+                color: rgb(0, 0, 0);
+                transition: color 0.3s;
+}

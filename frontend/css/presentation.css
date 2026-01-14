@@ -7,36 +7,28 @@
         height: 400px;
         width:  400px;
         left: 0;
-        border: solid;
+        border: outset;
+                background-color: white;
                 border-radius: 40px;
-                border-color: black;
-                box-shadow:
-                        3px 3px rgb(212, 31, 103),
-                        -1em 0 0.4em rgb(199, 213, 67)
 }
 .imageexempleright {
         margin: 2%;
         height: 400px;
         width: 400px;
         right: 0;
-        border: solid;
-                border-radius: 40px;
-                border-color: black;
-                box-shadow:
-                        3px 3px rgb(212, 31, 103),
-                        -1em 0 0.4em rgb(199, 213, 67)
+        border: outset;
+        background-color: white;
+        border-radius: 40px;
 }
 
 
 #interview {
+        opacity: 80%;
         margin: 5%;
         padding: 5% ;
-        border: solid;
-        border-radius: 40px;
-        border-color: black;
-        box-shadow:
-                3px 3px rgb(212, 31, 103),
-                -1em 0 0.4em rgb(199, 213, 67)
+        border: outset;
+                background-color: white;
+                border-radius: 40px;
 }
 
 .img1 {

@@ -5,17 +5,17 @@
     margin: 2%;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10%;
-    padding: 5%;
-    border: solid;
-    border-radius: 40px;
-    border-color: black;
-    box-shadow:
-        3px 3px rgb(212, 31, 103),
-        -1em 0 0.4em rgb(199, 213, 67)
+    opacity: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10%;
+        padding: 5%;
+    border: outset;
+        background-color: white;
+        border-radius: 40px;
+        /* border-color: black; */
+        /* box-shadow: 3px 3px rgb(212, 31, 103), -1em 0 0.4em rgb(199, 213, 67);*/
 
 }
 .image {
@@ -23,6 +23,7 @@
     left: 25%;
     height: 400px;
     width: 400px;
+    z-index: 1;
 }
 
 @media (max-width: 510px) {
@@ -32,4 +33,10 @@
         height: 200px;
         width: 200px;
     }
+}
+body {
+    background-image: url("../image/wmremove-transformed.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-clip: content-box;
 }

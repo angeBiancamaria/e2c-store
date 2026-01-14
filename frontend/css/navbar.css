@@ -15,6 +15,7 @@ body {
     background-color: #ffffff;
     padding: 0.5em 1em;
     color: white;
+z-index: 1000;
 }
 
 .nav-links {
@@ -168,6 +169,7 @@ nav>ul li:hover .sous {
 
     .hamburger {
         display: flex;
+        margin-right: 26px;
     }
 
     .info {
